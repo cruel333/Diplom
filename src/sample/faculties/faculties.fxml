@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="440.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.faculties.FacultiesController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="New" />
+            <MenuItem mnemonicParsing="false" text="Open…" />
+            <Menu mnemonicParsing="false" text="Open Recent" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" text="Revert" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Preferences…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Undo" />
+            <MenuItem mnemonicParsing="false" text="Redo" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Cut" />
+            <MenuItem mnemonicParsing="false" text="Copy" />
+            <MenuItem mnemonicParsing="false" text="Paste" />
+            <MenuItem mnemonicParsing="false" text="Delete" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Select All" />
+            <MenuItem mnemonicParsing="false" text="Unselect All" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="427.0" prefWidth="636.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button fx:id="button1" layoutX="10.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="ФАКУЛЬТЕТ КОМПЬЮТЕРНЫХ ТЕХНОЛОГИЙ, ВЫЧИСЛИТЕЛЬНОЙ ТЕХНИКИ И ЭНЕРГЕТИКИ" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <Button fx:id="button2" layoutX="9.0" layoutY="46.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="ИНЖЕНЕРНО-ЭКОНОМИЧЕСКИЙ ФАКУЛЬТЕТ" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <Button fx:id="button3" layoutX="9.0" layoutY="78.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="ФАКУЛЬТЕТ ИНФОРМАЦИОННЫХ СИСТЕМ, ФИНАНСОВ И АУДИТА" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <Button fx:id="button4" layoutX="8.0" layoutY="111.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="ФАКУЛЬТЕТ РАДИОЭЛЕКТРОНИКИ, ТЕЛЕКОММУНИКАЦИЙ И МУЛЬТИМЕДИЙНЫХ ТЕХНОЛОГИЙ" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <Button fx:id="button5" layoutX="8.0" layoutY="142.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="ТЕХНОЛОГИЧЕСКИЙ ФАКУЛЬТЕТ" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <Button fx:id="button6" layoutX="7.0" layoutY="174.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="ФАКУЛЬТЕТ НЕФТИ, ГАЗА И ПРИРОДООБУСТРОЙСТВА" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <Button fx:id="button7" layoutX="9.0" layoutY="208.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="АРХИТЕКТУРНО-СТРОИТЕЛЬНЫЙ ФАКУЛЬТЕТ" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <Button fx:id="button8" layoutX="12.0" layoutY="244.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="ФАКУЛЬТЕТ ТАМОЖЕННОГО ДЕЛА И СУДЕБНОЙ ЭКСПЕРТИЗЫ" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <Button fx:id="button9" layoutX="11.0" layoutY="276.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="ТРАНСПОРТНЫЙ ФАКУЛЬТЕТ" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <Button fx:id="butto10" layoutX="9.0" layoutY="302.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="ФАКУЛЬТЕТ ПОВЫШЕНИЯ КВАЛИФИКАЦИИ И ПЕРЕПОДГОТОВКИ РУКОВОДЯЩИХ РАБОТНИКОВ И СПЕЦИАЛИСТОВ" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <Button fx:id="button11" layoutX="7.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="656.0" text="ЗАОЧНЫЙ ФАКУЛЬТЕТ" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+            <ButtonBar layoutX="365.0" layoutY="360.0" prefHeight="40.0" prefWidth="200.0">
+              <buttons>
+                  <Button mnemonicParsing="false" text="Добавить" />
+                  <Button mnemonicParsing="false" text="Изменить" />
+                <Button mnemonicParsing="false" text="Удалить" />
+              </buttons>
+            </ButtonBar>
+            <Button fx:id="button0" layoutX="11.0" layoutY="368.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" text="&lt;-" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
